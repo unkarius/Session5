@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Chat_rider">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/sendee"
+
+        android:layout_width="413dp"
+        android:layout_height="49dp"
+        android:background="@drawable/edittext_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/e4ee"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:elevation="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.04"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.482"
+            app:srcCompat="@drawable/arrow_square_right" />
+
+        <ImageView
+            android:id="@+id/phone_img"
+            android:layout_width="14sp"
+            android:layout_height="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.959"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/phone" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="148sp"
+            android:layout_height="43sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/jame" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="247dp"
+        android:layout_height="52dp"
+        android:background="@drawable/edittext_border5"
+        android:paddingStart="8sp"
+        android:paddingLeft="8sp"
+        android:paddingTop="8sp"
+        android:paddingEnd="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:text="Hello, Please check your phone, I just booked you to deliver my stuff"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendee"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border5"
+        android:paddingStart="8sp"
+        android:paddingLeft="8sp"
+        android:paddingTop="8sp"
+        android:paddingEnd="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:text="Alright, I wll be waiting"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView85"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border4"
+        android:paddingStart="8sp"
+        android:paddingLeft="8sp"
+        android:paddingTop="8sp"
+        android:paddingEnd="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:text="Thank you for contacting me."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView82"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_border4"
+        android:paddingStart="8sp"
+        android:paddingLeft="8sp"
+        android:paddingTop="8sp"
+        android:paddingEnd="8sp"
+        android:paddingRight="8sp"
+        android:paddingBottom="8sp"
+        android:text="I am already on my way to the pick up venue."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView84"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="352sp"
+        android:layout_height="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendee"
+        app:layout_constraintVertical_bias="0.968">
+
+        <EditText
+            android:id="@+id/chat_edit"
+            android:layout_width="267sp"
+            android:layout_height="40sp"
+            android:background="@drawable/edittext_border4"
+            android:fontFamily="@font/roboto_regular"
+            android:hint="Enter message"
+            android:inputType="text"
+            android:padding="10sp"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="27sp"
+            android:layout_height="27sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/chat_edit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/emoji" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="36sp"
+            android:layout_height="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/chat_edit"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/triangle" />
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="12sp"
+            android:layout_height="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView42"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="@+id/chat_edit"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dictation" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
